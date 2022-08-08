@@ -1,0 +1,42 @@
+html {
+    font-family: 'Gill Sans';
+    
+    text-align: center;
+}
+
+body {
+    background-color: antiquewhite;
+}
+
+
+h1 {
+    font-size: 30 px;
+}
+
+h3 {
+    font-size: 25 px;
+}
+
+p {
+    font-size: 20px
+}
+
+label{
+    font-size: 20px
+}
+
+#guess-button{
+    background-color: whitesmoke;
+    padding: 15px 32px;
+    font-family:monospace;
+    font-weight:lighter
+}
+
+#guess-button:hover{
+    background-color: lightgreen;
+}
+
+#guess-button:active{
+    box-shadow: 0 5px grey;
+    transform: translateY(3px);
+}

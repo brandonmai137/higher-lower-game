@@ -1,0 +1,38 @@
+<html lang="en">
+    <head>
+        <title> Higher Lower </title>
+        <link href="./style/higher-lower-style.css" rel="stylesheet">
+
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    </head>
+    <body>
+        <div>
+            <h1><strong> Higher-Lower Game</strong></h1>
+            <h3> <em>Created by: Brandon Mai</em> </h3>
+        </div>
+        <div>
+            <p>
+            Can you guess the correct number?
+            </p>
+        </div>
+        <div>
+            <p id="maxNumMessage"></p>
+        </div>
+        <div>
+            <label for="guess"> Your Guess: </label>
+        </div>
+        <div>
+            <input type="text" id="guess" name="guess">
+        </div>
+        <div>
+            <br><button id='guess-button' type="button" onclick="printNumber(), storeGuess()" > Guess </button>
+        </div>
+        <div>
+            <p id="message"></p>
+        </div>
+        <script src= "./script/enhanced-higher-lower-script.js"></script>
+    </body>
+   
+</html>
